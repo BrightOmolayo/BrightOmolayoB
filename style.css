@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FCFDF2;
+}
+img{
+    width: 100%;
+    border: 2px solid black;
+    display: block;
+}
+header{
+    border-bottom: 1.7px solid black;
+    background-color: #FCFDF2 ;
+    padding: 15px 64px;
+    color: #505233;
+    font-size: large;
+}
+header a{
+    color: #505233;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBF9D5;
+}
+button{
+    background-color: #505233;
+    border-radius: 25px;
+    border: none;
+}
+.nav-links{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links-button{
+    padding: 12px 21px;
+    position: relative;
+    bottom: 6px;
+}
+.nav-links-button a{
+    color: white;
+    font-size: larger;
+    letter-spacing: 0.2px;
+}
+a{
+    text-decoration: none;
+}
+.project{
+    margin-top: 5px;
+}
+
+/* Homepage */
+.intro{
+    background-color: #FBF9D5;
+    padding: 64px;
+    border-bottom: 1.7px solid black;
+}
+.intro-text{
+    width: 40%;
+    border: 2px solid firebrick;
+    position: relative;
+    top: 140px;
+}
+.intro-text h1{
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.intro-text p{
+    font-size: 22px;
+}
+.intro-text button{
+    padding: 21px 109px;
+    position: relative;
+    top: 40px;
+    word-spacing: 2px;
+    border-radius: 30px;
+}
+.intro-text button a{
+    color: white;
+    font-size: larger;
+    letter-spacing: 0.2px;
+}
+.Bright{
+    border-radius: 40px;
+    border: 2px solid red;
+    overflow: hidden;
+    margin-top: 12px;
+    width: 40%;
+    margin-right:45px;
+}
+.Bright-at-work{
+    width: 50%;
+}
+.section-2-text{
+    width: 50%;
+}
+/* This is were you stopped */
+.section-2-text-div{
+    width: 70%;
+    margin: 10% 0% 5% 15%;
+    border: 2px solid red;
+}
+.work-experience{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232503;
+    width: 100%;
+}
+.recent-projects{
+    display: flex;
+    justify-content: space-around;
+}
+.clients-comments{
+    display: flex;
+    justify-content: space-between;
+}
+.section-4{
+    text-align: center;
+}
+.recent-projects-div{
+    background-color: #484A30;
+}
+.recent-projects-main-div{
+    width: 100%;
+}
+.section-6{
+    background-color: #FBF9D5;
+}
+.form{
+    background-color: #484A30;
+}
+.section-7{
+    text-align: center;
+}
