@@ -7,7 +7,6 @@ body{
 }
 img{
     width: 100%;
-    border: 2px solid black;
     display: block;
 }
 header{
@@ -70,7 +69,6 @@ a{
 }
 .intro-text{
     width: 40%;
-    border: 2px solid firebrick;
     position: relative;
     top: 140px;
     color: #232503;
@@ -97,7 +95,6 @@ a{
 }
 .Bright{
     border-radius: 40px;
-    border: 2px solid red;
     overflow: hidden;
     margin-top: 12px;
     width: 40%;
@@ -113,12 +110,10 @@ a{
 .section-2-text-div{
     width: 70%;
     margin: 24% 0% 5% 15%;
-    border: 2px solid red;
     color: #484A30;
 }
 .section-2-text-div h2{
     margin-bottom: 30px;
-    border: 2px solid red;
     font-size: 35px;
 }
 .section-2-text-div h4{
@@ -150,7 +145,6 @@ a{
 .clients-comments{
     display: flex;
     justify-content: space-around;
-    border: 2px solid red;
     width: 99%;
     line-height: 23px;
     font-size: 18px;
@@ -246,4 +240,89 @@ input{
     padding-bottom: 80px;
     background-color: #FCFDF2;
 }
-/* To be continued */
+
+/* projects page */
+.project-section-1-text{
+    width: 50%;
+    background-color: #484A30;
+    color: #FCFDF2;
+}
+.project-section-1-Image{
+    width: 50%;
+}
+.project-section-2-text{
+    width: 50%;
+    background-color: #484A30;
+    color: #FCFDF2;
+}
+.project-section-2-Image{
+    width: 50%;
+}
+.project-section-3-text{
+    width: 50%;
+    background-color: #484A30;
+    color: #FCFDF2;
+}
+.project-section-3-Image{
+    width: 50%;
+}
+.project-section-1-button{
+    background-color: #FCFDF2;
+    width: 40%;
+    padding: 16px;
+}
+.project-section-1-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-2-button{
+    background-color: #FCFDF2;
+    width: 40%;
+    padding: 16px;
+}
+.project-section-2-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-3-button{
+    background-color: #FCFDF2;
+    width: 40%;
+    padding: 16px;
+}
+.project-section-3-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-1-text h1{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.project-section-1-text p{
+    line-height: 20px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.project-section-2-text h1{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.project-section-2-text p{
+    line-height: 20px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.project-section-3-text h1{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.project-section-3-text p{
+    line-height: 20px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
