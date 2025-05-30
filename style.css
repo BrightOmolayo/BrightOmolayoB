@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: #FCFDF2;
+    background-color: #FBF9D5;
 }
 img{
     width: 100%;
@@ -33,6 +33,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #FBF9D5;
+    padding: 120px 40px;
 }
 button{
     background-color: #505233;
@@ -72,6 +73,7 @@ a{
     border: 2px solid firebrick;
     position: relative;
     top: 140px;
+    color: #232503;
 }
 .intro-text h1{
     font-size: 70px;
@@ -106,42 +108,142 @@ a{
 }
 .section-2-text{
     width: 50%;
+    background-color: #FCFDF2;
 }
-/* This is were you stopped */
 .section-2-text-div{
     width: 70%;
-    margin: 10% 0% 5% 15%;
+    margin: 24% 0% 5% 15%;
     border: 2px solid red;
+    color: #484A30;
+}
+.section-2-text-div h2{
+    margin-bottom: 30px;
+    border: 2px solid red;
+    font-size: 35px;
+}
+.section-2-text-div h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.section-2-text-div p{
+    margin: 20px 0px;
+    line-height: 25px;
 }
 .work-experience{
     display: flex;
+    padding: 90px 10px;
     justify-content: space-around;
     background-color: #232503;
     width: 100%;
+    color: #FBF9D5;
+    font-size: 20px;
+}
+.feedback{
+    width: 100%;
+}
+.clients{
+    margin-left: 80px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #484A30;
+}
+.clients-comments{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+    width: 99%;
+    line-height: 23px;
+    font-size: 18px;
+    color: #484A30;
+}
+.section-4{
+    text-align: center;
+    background-color: #FCFDF2;
+}
+.recent-projects-div{
+    background-color: #484A30;
+    margin: 50px 0px;
+    width: 30%;
+    padding: 30px;
+    color: #FBF9D5;
+    border-radius: 30px;
+}
+.recent-projects-main-div h1{
+    font-size: 30px;
+    margin-top: 30px
+}
+.recent-projects-main-div h2{
+    margin-bottom: 30px
+}
+.recent-projects-main-div p{
+    margin-bottom: 20px;
+}
+.recent-projects-main-div a{
+    text-decoration: underline;
+    color: black;
+}
+.recent-projects-main-div{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 90px 100px 90px;
+    gap: 30px;
 }
 .recent-projects{
     display: flex;
     justify-content: space-around;
-}
-.clients-comments{
-    display: flex;
-    justify-content: space-between;
-}
-.section-4{
-    text-align: center;
-}
-.recent-projects-div{
-    background-color: #484A30;
-}
-.recent-projects-main-div{
-    width: 100%;
+    gap: 50px;
+    font-size: large;
+    text-align: left;
 }
 .section-6{
     background-color: #FBF9D5;
 }
 .form{
     background-color: #484A30;
+    width: 80%;
+    margin-left: 7%;
+    padding: 70px 50px 50px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color:  #FBF9D5;
+    margin-bottom: 40px;
 }
 .section-7{
     text-align: center;
 }
+.section-7-div{
+    width: 100%;
+}
+.submit{
+    width: 60%;
+    background-color: #232503;
+    color: #FCFDF2;
+    padding: 10px;
+}
+label{
+    font-size: larger;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FCFDF5;;
+}
+.email{
+    width: 74%;
+}
+.section-7-div h3{
+    margin: 40px 10px ;
+    font-size: 30px;
+    color: #484A30;
+}
+.section-7{
+    border: none;
+    border-bottom: 1.6px solid black;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding-bottom: 80px;
+    background-color: #FCFDF2;
+}
+/* To be continued */
