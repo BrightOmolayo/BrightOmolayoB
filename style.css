@@ -12,7 +12,7 @@ img{
 header{
     border-bottom: 1.7px solid black;
     background-color: #FCFDF2 ;
-    padding: 15px 64px;
+    padding: 19px 70px;
     color: #505233;
     font-size: large;
 }
@@ -22,7 +22,7 @@ header a{
 nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 16px;
 }
 section{
     display: flex;
@@ -68,13 +68,13 @@ a{
 /* Homepage */
 .intro{
     background-color: #FBF9D5;
-    padding: 64px;
+    padding: 70px 70px 90px 70px;
     border-bottom: 1.7px solid black;
 }
 .intro-text{
-    width: 40%;
+    width: 42%;
     position: relative;
-    top: 140px;
+    top: 120px;
     color: #232503;
 }
 .intro-text h1{
@@ -98,14 +98,20 @@ a{
     letter-spacing: 0.2px;
 }
 .Bright{
-    border-radius: 40px;
+    border-radius: 50px;
     overflow: hidden;
-    margin-top: 12px;
-    width: 40%;
-    margin-right:45px;
+    margin-top: 0px;
+    width: 35%;
+    margin-right:50px;
+    background-color: transparent;
 }
 .Bright-at-work{
     width: 50%;
+    margin-top: 130px;
+}
+.section-2{
+    padding-bottom: 60px;
+    background-color: #FCFDF2;
 }
 .section-2-text{
     width: 50%;
@@ -159,7 +165,7 @@ a{
     background-color: #FCFDF2;
 }
 .recent-projects-div{
-    background-color: #484A30;
+    background-color: #232503;
     margin: 50px 0px;
     width: 30%;
     padding: 30px;
