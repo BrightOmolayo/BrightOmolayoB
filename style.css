@@ -268,8 +268,9 @@ input{
 }
 .project-section-1-button{
     background-color: #FCFDF2;
-    width: 40%;
+    width: 50%;
     padding: 16px;
+    margin-left: 25%;
 }
 .project-section-1-button a{
     text-decoration: none;
@@ -277,8 +278,9 @@ input{
 }
 .project-section-2-button{
     background-color: #FCFDF2;
-    width: 40%;
+    width: 50%;
     padding: 16px;
+    margin-left: 25%;
 }
 .project-section-2-button a{
     text-decoration: none;
@@ -286,8 +288,9 @@ input{
 }
 .project-section-3-button{
     background-color: #FCFDF2;
-    width: 40%;
+    width: 50%;
     padding: 16px;
+    margin-left: 25%;
 }
 .project-section-3-button a{
     text-decoration: none;
@@ -298,31 +301,83 @@ input{
     font-weight: 100;
     padding-top: 120px;
     padding-bottom: 40px;
+    margin-left: 15%;
 }
 .project-section-1-text p{
     line-height: 20px;
     font-size: larger;
     margin-bottom: 50px;
+    margin-left: 15%;
 }
 .project-section-2-text h1{
     font-size: 60px;
     font-weight: 100;
     padding-top: 120px;
     padding-bottom: 40px;
+    margin-left: 15%;
 }
 .project-section-2-text p{
     line-height: 20px;
     font-size: larger;
     margin-bottom: 50px;
+    margin-left: 15%;
 }
 .project-section-3-text h1{
     font-size: 60px;
     font-weight: 100;
     padding-top: 120px;
     padding-bottom: 40px;
+    margin-left: 15%;
 }
 .project-section-3-text p{
     line-height: 20px;
     font-size: larger;
     margin-bottom: 50px;
+    margin-left: 15%;
+}
+.learn-more-section{
+    background-image: url(./assets/Images/learnmorebgi.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.learn-more-section-div{
+    background-color: rgba(72, 74, 48, 0.5);
+    backdrop-filter: blur(4px);
+    backdrop-filter: brightness(60%);
+    width: 100%;
+    padding: 120px 50px 80px 50px;
+    font-size: 30px;
+    color: #FBF9D5;
+}
+.learn-more-section-button{
+    margin-top: 50px;
+    padding: 14px;
+    width: 50%;
+    background-color: #484A30;
+}
+.learn-more-section-button a{
+    color: #FBF9D5;
+    font-size: medium;
+}
+
+/* Consultation page */
+.consultation-main{
+    background-color: #FCFDF2;
+}
+.form-div{
+    background-color: #FBF9D5;
+    width: 50%;
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-inline-start: 10%;
+}
+.consultation-form{
+    background-color: #484A30;
+    color: #FBF9D5;
+    border-radius: 20px;
+    width: 80%;
+}
+.lets-work-together{
+    width: 50%;
 }
