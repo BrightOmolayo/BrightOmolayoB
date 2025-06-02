@@ -113,7 +113,7 @@ a{
 }
 .section-2-text-div{
     width: 70%;
-    margin: 24% 0% 5% 15%;
+    margin: 16% 0% 0% 15%;
     color: #484A30;
 }
 .section-2-text-div h2{
@@ -442,9 +442,8 @@ input{
 }
 .consultation-image{
     width: 50%;
-    border: 2px solid green;
     position: relative;
-    top: 220px;
+    top: 200px;
     margin-left: 50px;
     overflow: hidden;
     border-radius: 50px;
