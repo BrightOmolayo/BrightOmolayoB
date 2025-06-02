@@ -22,29 +22,41 @@
     <main class="consultation-main">
         <section class="consultation-section-1">
             <div class="lets-work-together">
-                <h1>Let's work together</h1>
-                <div>
+                <h1>Let's work <br> together</h1>
+                <div class="consultation-image">
                     <img src="./assets/Images/Img-placeholder.jpg" alt="Bright">
                 </div>
             </div>
             <div class="form-div">
                 <form action="" class="consultation-form">
-                    <label for="">Firstname</label>
-                    <input type="text" name="" id="">
-                    <label for="">Lastname</label>
-                    <input type="text" name="" id=""> <br>
-                    <label for="">email</label>
-                    <input type="email" name="" id=""><br>
-                    <label for="">Subject</label>
-                    <input type="text" name="" id=""> <br>
-                    <label for="">Message</label>
-                    <textarea name="" id=""></textarea>
-                    <button type="submit"></button>
+                    <div class="Firstname-lastname-labels">
+                        <div class="firstname">
+                            <label for="">First Name</label><br> <br>
+                            <input type="text" name="" id="" required>
+                        </div>
+                        <div class="lastname">
+                            <label for="">Last Name</label><br> <br>
+                            <input type="text" name="" id="" required> 
+                        </div>
+                    </div> <br><br><br>
+                    <label for="">Email</label><br> <br>
+                    <input type="email" name="" id=""  class="consultation-email" required><br> <br> <br>
+                    <label for="">Subject</label> <br> <br>
+                    <input type="text" name="" id="" class="consultation-subject" required> <br><br><br><br>
+                    <label for="">Message</label><br> <br>
+                    <textarea name="" id="" required></textarea> <br><br> <br> <br> <br>
+                    <button type="submit" class="consultation-button">Submit</button>
                 </form>
             </div>
         </section>
+        <section class="learn-more-section">
+            <div class="learn-more-section-div">
+                <h1>Want to learn more?</h1>
+                <button class="learn-more-section-button"><a href="./moreProject.html">Explore more project</a></button>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="consultation-footer">
         <div>
             <h1>Bright</h1>
         </div>

@@ -33,6 +33,10 @@ footer{
     justify-content: space-between;
     background-color: #FBF9D5;
     padding: 120px 40px;
+    color: #232503;
+}
+footer a{
+        color: #232503;
 }
 button{
     background-color: #505233;
@@ -342,22 +346,25 @@ input{
     text-align: center;
 }
 .learn-more-section-div{
-    background-color: rgba(72, 74, 48, 0.5);
-    backdrop-filter: blur(4px);
-    backdrop-filter: brightness(60%);
+    background-color: rgba(38, 40, 13, 0.5);
+    backdrop-filter: blur(4px); 
+    backdrop-filter: brightness(60%); 
     width: 100%;
     padding: 120px 50px 80px 50px;
-    font-size: 30px;
+
     color: #FBF9D5;
+}
+.learn-more-section-div h1{
+    font-size: 110px;
 }
 .learn-more-section-button{
     margin-top: 50px;
     padding: 14px;
-    width: 50%;
-    background-color: #484A30;
+    width: 25%;
+    background-color: #FCFDF2;
 }
 .learn-more-section-button a{
-    color: #FBF9D5;
+    color: #484A30;
     font-size: medium;
 }
 
@@ -369,15 +376,76 @@ input{
     background-color: #FBF9D5;
     width: 50%;
     padding-top: 7%;
-    padding-left: 10%;
-    padding-inline-start: 10%;
+    padding-bottom: 8%;
 }
 .consultation-form{
     background-color: #484A30;
     color: #FBF9D5;
-    border-radius: 20px;
-    width: 80%;
+    border-radius: 50px;
+    width: 60%;
+    padding: 10% 5%;
+    margin-left: 15%;
+    font-size: small;
 }
 .lets-work-together{
     width: 50%;
+}
+.consultation-email{
+    width: 94%;
+}
+.consultation-form input{
+    padding: 15px 3px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.consultation-form textarea{
+    width: 95%;
+    height: 90px;
+}
+.consultation-subject{
+    width: 94%;
+}
+.consultation-button{
+    width: 50%;
+    padding: 15px 5px;
+    color:#505233;
+    font-size: medium;
+    background-color: #FBF9D0;
+    position: relative;
+    left: 25%;
+}
+.Firstname-lastname-labels{
+    display: flex;
+}
+.lastname{
+    width: 49%;
+}
+.lastname input{
+    width: 90%;
+}
+.firstname{
+    width:49%;
+}
+.firstname input{
+    width: 90%;
+}
+.consultation-footer{
+    padding: 50px 40px 120px 40px;
+}
+.lets-work-together h1{
+    font-size: 100px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 70px;
+    line-height: 90px;
+}
+.consultation-image{
+    width: 50%;
+    border: 2px solid green;
+    position: relative;
+    top: 220px;
+    margin-left: 50px;
+    overflow: hidden;
+    border-radius: 50px;
 }
