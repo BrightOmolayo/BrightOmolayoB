@@ -32,11 +32,11 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #FBF9D5;
-    padding: 120px 40px;
+    padding: 120px 70px;
     color: #232503;
 }
 footer a{
-        color: #232503;
+    color: #232503;
 }
 button{
     background-color: #505233;
@@ -106,18 +106,22 @@ a{
     background-color: transparent;
 }
 .Bright-at-work{
-    width: 50%;
-    margin-top: 130px;
+    width: 49%;
+    margin-top: 115px;
+    margin-left: 5%;
 }
 .section-2{
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     background-color: #FCFDF2;
+    border-bottom: 1.7px solid black;
 }
 .section-2-text{
-    width: 50%;
-    background-color: #FCFDF2;
+    width: 49%;
+    background-color:#FCFDF2;
 }
 .section-2-text-div{
+    padding-top: 90px;
     width: 70%;
     margin: 16% 0% 0% 15%;
     color: #484A30;
@@ -134,9 +138,13 @@ a{
     margin: 20px 0px;
     line-height: 25px;
 }
+.section-3{
+    background-color: #FCFDF2;
+}
 .work-experience{
     display: flex;
-    padding: 90px 10px;
+    padding: 30px 10px;
+    margin: 0px 0px 130px 0px;
     justify-content: space-around;
     background-color: #232503;
     width: 100%;
@@ -204,9 +212,9 @@ a{
 }
 .form{
     background-color: #484A30;
-    width: 80%;
-    margin-left: 7%;
-    padding: 70px 50px 50px 50px;
+    width: 83%;
+    margin-left: 4%;
+    padding: 120px 50px 90px 50px;
     border-radius: 50px;
     margin-top: 20px;
     color:  #FBF9D5;
@@ -228,7 +236,7 @@ label{
     font-size: larger;
 }
 input{
-    width: 30%;
+    width: 23%;
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -237,8 +245,12 @@ input{
 .email{
     width: 74%;
 }
+.form-holder{
+    width: 50%;
+}
 .section-7-div h3{
     margin: 40px 10px ;
+    padding-bottom: 30px;
     font-size: 30px;
     color: #484A30;
 }
