@@ -115,6 +115,11 @@ a{
     padding-bottom: 50px;
     background-color: #FCFDF2;
     border-bottom: 1.7px solid black;
+    border: none;
+    border-bottom: 1.6px solid black;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding-bottom: 80px;
 }
 .section-2-text{
     width: 49%;
@@ -153,11 +158,12 @@ a{
 }
 .feedback{
     width: 100%;
+    padding: 90px 30px;
 }
 .clients{
-    margin-left: 80px;
+    margin-left: 180px;
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #484A30;
 }
 .clients-comments{
@@ -165,7 +171,7 @@ a{
     justify-content: space-around;
     width: 99%;
     line-height: 23px;
-    font-size: 18px;
+    font-size: madium;
     color: #484A30;
 }
 .section-4{
@@ -262,6 +268,12 @@ input{
     padding-bottom: 80px;
     background-color: #FCFDF2;
 }
+.social-links{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 /* projects page */
 .project-section-1-text{
@@ -284,6 +296,7 @@ input{
     width: 50%;
     background-color: #484A30;
     color: #FCFDF2;
+    padding-bottom: 20px;
 }
 .project-section-3-Image{
     width: 50%;
@@ -292,7 +305,7 @@ input{
     background-color: #FCFDF2;
     width: 50%;
     padding: 16px;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .project-section-1-button a{
     text-decoration: none;
@@ -302,7 +315,7 @@ input{
     background-color: #FCFDF2;
     width: 50%;
     padding: 16px;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .project-section-2-button a{
     text-decoration: none;
@@ -312,48 +325,55 @@ input{
     background-color: #FCFDF2;
     width: 50%;
     padding: 16px;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .project-section-3-button a{
     text-decoration: none;
     color: #484A30;
 }
 .project-section-1-text h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 100;
-    padding-top: 120px;
-    padding-bottom: 40px;
+    padding-top: 110px;
+    padding-bottom: 30px;
     margin-left: 15%;
+}
+.project-section-image{
+    margin: 80px 0px 80px 0px;
 }
 .project-section-1-text p{
     line-height: 20px;
-    font-size: larger;
+    font-size: medium;
     margin-bottom: 50px;
     margin-left: 15%;
 }
 .project-section-2-text h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 100;
-    padding-top: 120px;
-    padding-bottom: 40px;
+    padding-top: 110px;
+    padding-bottom: 30px;
     margin-left: 15%;
 }
 .project-section-2-text p{
     line-height: 20px;
-    font-size: larger;
+    font-size: medium;
     margin-bottom: 50px;
     margin-left: 15%;
 }
 .project-section-3-text h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 100;
-    padding-top: 120px;
-    padding-bottom: 40px;
+    padding-top: 110px;
+    padding-bottom: 30px;
     margin-left: 15%;
+}
+.project-section-3{
+    border-bottom: 1.7px solid black;
+    margin-bottom: 50px;
 }
 .project-section-3-text p{
     line-height: 20px;
-    font-size: larger;
+    font-size: medium;
     margin-bottom: 50px;
     margin-left: 15%;
 }
