@@ -812,7 +812,92 @@ button{
     width: 100%;
     padding: 0px 0px;
 }
-
+/* Consultation page */
+.consultation-main{
+    background-color: #FCFDF2;
+}
+.form-div{
+    background-color: #FBF9D5;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+.consultation-form{
+    background-color: #484A30;
+    color: #FBF9D5;
+    border-radius: 50px;
+    width: 70%;
+    padding: 12% 5% 10% 5%;
+    margin-left: 10%;
+    font-size: small;
+    margin-top: 50px;
+}
+.learn-more-section-for-consultation{
+    display: none;
+}
+.lets-work-together{
+    width: 90%;
+}
+.consultation-email{
+    width: 94%;
+}
+.consultation-form input{
+    padding: 15px 3px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.consultation-form textarea{
+    width: 95%;
+    height: 90px;
+}
+.consultation-subject{
+    width: 94%;
+}
+.consultation-button{
+    width: 50%;
+    padding: 15px 5px;
+    color:#505233;
+    font-size: medium;
+    background-color: #FBF9D0;
+    position: relative;
+    left: 25%;
+}
+.Firstname-lastname-labels{
+    display: flex;
+}
+.lastname{
+    width: 49%;
+}
+.lastname input{
+    width: 90%;
+}
+.firstname{
+    width:49%;
+}
+.firstname input{
+    width: 90%;
+}
+.consultation-footer{
+    padding: 50px 40px 120px 40px;
+}
+.lets-work-together h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 0px;
+    line-height: 50px;
+    padding: 30px ;
+}
+.consultation-image{
+    width: 50%;
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    display: none;
+}
 }
 @media only screen and (min-width: 430px) and (max-width:768px){
 header{
@@ -1137,5 +1222,181 @@ button{
     width: 100%;
     padding: 0px 0px;
 }
-
+/* Consultation page */
+.consultation-main{
+    background-color: #FCFDF2;
+}
+.form-div{
+    background-color: #FBF9D5;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+.consultation-form{
+    background-color: #484A30;
+    color: #FBF9D5;
+    border-radius: 50px;
+    width: 70%;
+    padding: 12% 5% 10% 5%;
+    margin-left: 10%;
+    font-size: small;
+    margin-top: 50px;
+}
+.learn-more-section-for-consultation{
+    display: none;
+}
+.lets-work-together{
+    width: 90%;
+}
+.consultation-email{
+    width: 94%;
+}
+.consultation-form input{
+    padding: 15px 3px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.consultation-form textarea{
+    width: 95%;
+    height: 90px;
+}
+.consultation-subject{
+    width: 94%;
+}
+.consultation-button{
+    width: 50%;
+    padding: 15px 5px;
+    color:#505233;
+    font-size: medium;
+    background-color: #FBF9D0;
+    position: relative;
+    left: 25%;
+}
+.Firstname-lastname-labels{
+    display: flex;
+}
+.lastname{
+    width: 49%;
+}
+.lastname input{
+    width: 90%;
+}
+.firstname{
+    width:49%;
+}
+.firstname input{
+    width: 90%;
+}
+.consultation-footer{
+    padding: 50px 40px 120px 40px;
+}
+.lets-work-together h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 0px;
+    line-height: 50px;
+    padding: 30px ;
+}
+.consultation-image{
+    width: 50%;
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    display: none;
+}
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links-button{
+    padding: 12px 21px;
+    position: relative;
+    bottom: 6px;
+    left: 30px;
+}    
+/* Homepage */
+.intro{
+    background-color: #FBF9D5;
+    padding: 70px 70px 90px 70px;
+    border-bottom: 1.7px solid black;
+}
+.intro-text{
+    width: 50%;
+    position: relative;
+    top: 108px;
+    color: #232503;
+}
+.intro-text h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.intro-text p{
+    font-size: 22px;
+}
+.intro-text button{
+    padding: 21px 109px;
+    position: relative;
+    top: 40px;
+    word-spacing: 2px;
+    border-radius: 30px;
+}
+.intro-text button a{
+    color: white;
+    font-size: larger;
+    letter-spacing: 0.2px;
+}
+.Bright{
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 0px;
+    width: 35%;
+    margin-right:50px;
+    background-color: transparent;
+}
+.Bright-at-work{
+    width: 49%;
+    margin-top: 115px;
+    margin-left: 5%;
+}
+.section-2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #FCFDF2;
+    border-bottom: 1.7px solid black;
+    border: none;
+    border-bottom: 1.6px solid black;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding-bottom: 80px;
+}
+.section-2-text{
+    width: 49%;
+    background-color:#FCFDF2;
+}
+.section-2-text-div{
+    padding-top: 30px;
+    width: 80%;
+    margin: 16% 0% 0% 15%;
+    color: #484A30;
+}
+.section-2-text-div h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.section-2-text-div h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.section-2-text-div p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
 }
