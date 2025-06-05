@@ -956,4 +956,186 @@ button{
     margin: 20px 0px;
     line-height: 25px;
 }
+/* projects page */
+
+.project-section-1-text{
+    width: 80%;
+    background-color: #484A30;
+    color: #FCFDF2;
+    margin: 40px 20px 0px 35px;
+    border-radius: 30px;
+}
+.project-section-1-Image{
+    width: 80%;
+    display: block;
+    margin: 40px 20px 0px 35px;
+}
+.project-section-2-text{
+    width: 80%;
+    background-color: #484A30;
+    color: #FCFDF2;
+    margin: 40px 20px 0px 35px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 400px;
+}
+.project-section-2-Image{
+    width: 80%;
+    display: block;
+    position: relative;
+    top: 300px;
+    margin: 40px 20px 0px 35px;
+}
+.project-section-3-text{
+    width: 80%;
+    background-color: #484A30;
+    color: #FCFDF2;
+    margin: 40px 20px 30px 35px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+.project-section-3-Image{
+    width: 80%;
+    display: block;
+}
+.project-section-1-button{
+    background-color: #FCFDF2;
+    width: 70%;
+    padding: 16px;
+    margin-left: 15%;
+    position: relative;
+    bottom: 30px;
+}
+.project-section-1-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-2-button{
+    background-color: #FCFDF2;
+    width: 70%;
+    padding: 16px;
+    margin-left: 15%;
+    position: relative;
+    bottom: 30px;
+}
+.project-section-2-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-3-button{
+    background-color: #FCFDF2;
+    width: 70%;
+    padding: 16px;
+    margin-left: 15%;
+    position: relative;
+    bottom: 30px;
+}
+.project-section-3-button a{
+    text-decoration: none;
+    color: #484A30;
+}
+.project-section-1-text h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+.project-section-image{
+    margin: 80px 0px 80px 0px;
+}
+.project-section-1-text p{
+    line-height: 18px;
+    font-size: small;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width: 100%;
+}
+.project-section-2-text h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+.project-section-2-text p{
+    line-height: 18px;
+    font-size: small;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width: 100%;
+}
+.project-section-3-text h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+.project-section-3{
+    border-bottom: 1.7px solid black;
+    margin-bottom: 50px;
+}
+.project-section-3-text p{
+    line-height: 18px;
+    font-size: small;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width: 100%;
+}
+.learn-more-section{
+    background-image: url(./assets/Images/learnmorebgi.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.learn-more-section-div h1{
+    font-size: 30px;
+}
+.learn-more-section-button{
+    margin-top: 50px;
+    padding: 14px;
+    width: 55%;
+    background-color: #FCFDF2;
+}
+.learn-more-section-button a{
+    color: #484A30;
+    font-size: medium;
+}
+.clients {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #484A30;
+}
+.clients-comments{
+    display: block;
+    justify-content: space-around;
+    width: 69%;
+    line-height: 23px;
+    font-size: madium;
+    color: #484A30;
+    margin-left: 50px;
+}
+.section-4{
+    text-align: center;
+    background-color: #FCFDF2;
+}
+.learn-more-section-div{
+    background-color: rgba(38, 40, 13, 0.5);
+    backdrop-filter: blur(4px); 
+    backdrop-filter: brightness(60%); 
+    width: 100%;
+    padding: 120px 0px 80px 0px;
+    color: #FBF9D5;
+    margin-top: 100px;
+}
+.learn-more-section-div a{
+    font-size: small;
+}
+.feedback{
+    width: 100%;
+    padding: 0px 0px;
+}
+
 }
