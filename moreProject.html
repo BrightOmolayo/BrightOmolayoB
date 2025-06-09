@@ -13,12 +13,22 @@
             <div>
                 <h1><a href="./index.html">Bright</a></h1>
             </div>
+            <div class="dropdown" onclick="dropdown()">
+                <div class="hambuger-line hambuger-line1"></div>
+                <div class="hambuger-line hambuger-line2"></div>
+            </div>
             <div class="nav-links">
                 <a href="./projects.html" class="project">Projects</a>
                 <button class="nav-links-button"><a href="./consultation.html">Book Consultation</a></button>
             </div>
         </nav>
     </header>
+    <div class="mobile-nav-links" style="display: none;">
+        <div class="nav-links-monile">
+            <a href="./projects.html" class="project project-monile">Projects</a>
+            <button class="nav-links-button nav-links-button-monile"><a href="./consultation.html">Book Consultation</a></button>
+        </div>
+    </div>
     <main>
         <div>
             <a href="">Project 1</a>
@@ -37,5 +47,6 @@
             <p> email: officialbrightbalogun@gmail.com</p>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>

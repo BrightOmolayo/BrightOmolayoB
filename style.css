@@ -489,9 +489,7 @@ input{
 .dropdown{
     display: none;
 }
-.mobile-nav-links{
-    display: none;
-}
+
 
 /* Mobile view */
 @media only screen and (max-width: 430px){
@@ -514,9 +512,6 @@ nav{
 .nav-links{
     display: none;
 }
-.mobile-nav-links{
-    display: block;
-}
 .dropdown{
     width: 13%;
     display: flex;
@@ -538,6 +533,32 @@ nav{
 }
 .active .hambuger-line2{
     transform: rotate(-45deg);
+}
+.active .mobile-nav-links{
+    display: block;
+}
+.nav-links-monile{
+    background-color: #FBF9D0;
+    height: 190px;
+    position: absolute;
+    width: 99%;
+    z-index: 99;
+}
+#monile-project{
+    height: 390px;
+}
+.project-monile{
+    position: relative;
+    left: 120px;
+    top: 30px;
+    font-size: large;
+    color: #484A30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links-button-monile{
+    position: relative;
+    left: 5px;
+    top: 80px;
 }
 section{
     display: block;
@@ -918,9 +939,7 @@ nav{
 .nav-links{
     display: none;
 }
-.mobile-nav-links{
-    display: block;
-}
+
 .dropdown{
     width: 13%;
     display: flex;
